@@ -1,0 +1,1537 @@
+﻿  main.cpp
+  
+  Starting pass 1
+  Processed /DEFAULTLIB:msvcprt
+  Processed /DEFAULTLIB:MSVCRT
+  Processed /DEFAULTLIB:OLDNAMES
+  
+  Searching libraries
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+        Found "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z)
+          Referenced in main.obj
+          Loaded sfml-system.lib(sfml-system-2.dll)
+        Found "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ)
+          Referenced in main.obj
+          Loaded sfml-system.lib(sfml-system-2.dll)
+        Found __IMPORT_DESCRIPTOR_sfml-system-2
+          Referenced in sfml-system.lib(sfml-system-2.dll)
+          Referenced in sfml-system.lib(sfml-system-2.dll)
+          Loaded sfml-system.lib(sfml-system-2.dll)
+        Found __NULL_IMPORT_DESCRIPTOR
+          Referenced in sfml-system.lib(sfml-system-2.dll)
+          Loaded sfml-system.lib(sfml-system-2.dll)
+        Found sfml-system-2_NULL_THUNK_DATA
+          Referenced in sfml-system.lib(sfml-system-2.dll)
+          Loaded sfml-system.lib(sfml-system-2.dll)
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+        Found "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ)
+          Referenced in main.obj
+          Loaded sfml-graphics.lib(sfml-graphics-2.dll)
+        Found "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(void)" (__imp_??0RenderWindow@sf@@QEAA@XZ)
+          Referenced in main.obj
+          Loaded sfml-graphics.lib(sfml-graphics-2.dll)
+        Found "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z)
+          Referenced in main.obj
+          Loaded sfml-graphics.lib(sfml-graphics-2.dll)
+        Found "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z)
+          Referenced in main.obj
+          Loaded sfml-graphics.lib(sfml-graphics-2.dll)
+        Found __IMPORT_DESCRIPTOR_sfml-graphics-2
+          Referenced in sfml-graphics.lib(sfml-graphics-2.dll)
+          Referenced in sfml-graphics.lib(sfml-graphics-2.dll)
+          Referenced in sfml-graphics.lib(sfml-graphics-2.dll)
+          Referenced in sfml-graphics.lib(sfml-graphics-2.dll)
+          Loaded sfml-graphics.lib(sfml-graphics-2.dll)
+        Found sfml-graphics-2_NULL_THUNK_DATA
+          Referenced in sfml-graphics.lib(sfml-graphics-2.dll)
+          Loaded sfml-graphics.lib(sfml-graphics-2.dll)
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+        Found "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ)
+          Referenced in main.obj
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found "__declspec(dllimport) public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z)
+          Referenced in main.obj
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found "__declspec(dllimport) public: bool __cdecl sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QEBA_NXZ)
+          Referenced in main.obj
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found "__declspec(dllimport) public: void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@QEAAXXZ)
+          Referenced in main.obj
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found "__declspec(dllimport) public: void __cdecl sf::Window::create(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_?create@Window@sf@@QEAAXVVideoMode@2@AEBVString@2@IAEBUContextSettings@2@@Z)
+          Referenced in main.obj
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z)
+          Referenced in main.obj
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found __IMPORT_DESCRIPTOR_sfml-window-2
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Loaded sfml-window.lib(sfml-window-2.dll)
+        Found sfml-window-2_NULL_THUNK_DATA
+          Referenced in sfml-window.lib(sfml-window-2.dll)
+          Loaded sfml-window.lib(sfml-window-2.dll)
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+        Found "__declspec(dllimport) public: void __cdecl tgui::Gui::add(class std::shared_ptr<class tgui::Widget> const &,class sf::String const &)" (__imp_?add@Gui@tgui@@QEAAXAEBV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z)
+          Referenced in main.obj
+          Loaded tgui.lib(tgui.dll)
+        Found "__declspec(dllimport) public: void __cdecl tgui::Gui::draw(void)" (__imp_?draw@Gui@tgui@@QEAAXXZ)
+          Referenced in main.obj
+          Loaded tgui.lib(tgui.dll)
+        Found "__declspec(dllimport) public: bool __cdecl tgui::Gui::handleEvent(class sf::Event)" (__imp_?handleEvent@Gui@tgui@@QEAA_NVEvent@sf@@@Z)
+          Referenced in main.obj
+          Loaded tgui.lib(tgui.dll)
+        Found "__declspec(dllimport) public: __cdecl tgui::Gui::Gui(class sf::RenderTarget &)" (__imp_??0Gui@tgui@@QEAA@AEAVRenderTarget@sf@@@Z)
+          Referenced in main.obj
+          Loaded tgui.lib(tgui.dll)
+        Found "__declspec(dllimport) public: class std::shared_ptr<class tgui::Widget> __cdecl tgui::Container::get(class sf::String const &)const " (__imp_?get@Container@tgui@@QEBA?AV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z)
+          Referenced in main.obj
+          Loaded tgui.lib(tgui.dll)
+        Found "__declspec(dllimport) public: __cdecl tgui::Gui::~Gui(void)" (__imp_??1Gui@tgui@@QEAA@XZ)
+          Referenced in main.obj
+          Loaded tgui.lib(tgui.dll)
+        Found __IMPORT_DESCRIPTOR_tgui
+          Referenced in tgui.lib(tgui.dll)
+          Referenced in tgui.lib(tgui.dll)
+          Referenced in tgui.lib(tgui.dll)
+          Referenced in tgui.lib(tgui.dll)
+          Referenced in tgui.lib(tgui.dll)
+          Referenced in tgui.lib(tgui.dll)
+          Loaded tgui.lib(tgui.dll)
+        Found tgui_NULL_THUNK_DATA
+          Referenced in tgui.lib(tgui.dll)
+          Loaded tgui.lib(tgui.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\msvcprt.lib:
+        Found _Mbrtowc
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QEBAPEBDXZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QEBAPEBDXZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found "__declspec(dllimport) public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ)
+          Referenced in main.obj
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found __IMPORT_DESCRIPTOR_MSVCP140
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Loaded msvcprt.lib(MSVCP140.dll)
+        Found MSVCP140_NULL_THUNK_DATA
+          Referenced in msvcprt.lib(MSVCP140.dll)
+          Loaded msvcprt.lib(MSVCP140.dll)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\MSVCRT.lib:
+        Found __security_check_cookie
+          Referenced in main.obj
+          Loaded MSVCRT.lib(amdsecgs.obj)
+        Found atexit
+          Referenced in main.obj
+          Loaded MSVCRT.lib(utility.obj)
+        Found "const type_info::`vftable'" (??_7type_info@@6B@)
+          Referenced in main.obj
+          Loaded MSVCRT.lib(std_type_info_static.obj)
+        Found mainCRTStartup
+          Loaded MSVCRT.lib(exe_main.obj)
+        Found __security_cookie
+          Referenced in MSVCRT.lib(amdsecgs.obj)
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(gs_cookie.obj)
+        Found __report_gsfailure
+          Referenced in MSVCRT.lib(amdsecgs.obj)
+          Loaded MSVCRT.lib(gs_report.obj)
+        Found __isa_available_init
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(cpu_disp.obj)
+        Found _get_startup_argv_mode
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(argv_mode.obj)
+        Found __scrt_is_ucrt_dll_in_use
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded MSVCRT.lib(ucrt_detection.obj)
+        Found __scrt_fastfail
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(utility_desktop.obj)
+        Found __guard_dispatch_icall_fptr
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(guard_support.obj)
+        Found "void __cdecl operator delete(void *,unsigned __int64)" (??3@YAXPEAX_K@Z)
+          Referenced in MSVCRT.lib(std_type_info_static.obj)
+          Loaded MSVCRT.lib(delete_scalar_size.obj)
+        Found __security_init_cookie
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(gs_support.obj)
+        Found _matherr
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(matherr.obj)
+        Found _get_startup_commit_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(commit_mode.obj)
+        Found _get_startup_file_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(file_mode.obj)
+        Found _get_startup_new_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(new_mode.obj)
+        Found _get_startup_thread_locale_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(thread_locale.obj)
+        Found "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(tncleanup.obj)
+        Found _should_initialize_environment
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(env_mode.obj)
+        Found _initialize_invalid_parameter_handler
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(invalid_parameter_handler.obj)
+        Found _initialize_denormal_control
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(denormal_control.obj)
+        Found __scrt_initialize_default_local_stdio_options
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(default_local_stdio_options.obj)
+        Found __scrt_is_user_matherr_present
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(matherr_detection.obj)
+        Found __scrt_get_dyn_tls_init_callback
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(dyn_tls_init.obj)
+        Found __scrt_get_dyn_tls_dtor_callback
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(dyn_tls_dtor.obj)
+        Found _RTC_Initialize
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(initsect.obj)
+        Found __xi_a
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded MSVCRT.lib(initializers.obj)
+  Processed /DEFAULTLIB:kernel32.lib
+   Processed /DISALLOWLIB:msvcrtd.lib
+   Processed /DISALLOWLIB:libcmt.lib
+   Processed /DISALLOWLIB:libcmtd.lib
+  Processed /DEFAULTLIB:vcruntime.lib
+   Processed /DISALLOWLIB:vcruntimed.lib
+   Processed /DISALLOWLIB:libvcruntime.lib
+   Processed /DISALLOWLIB:libvcruntimed.lib
+  Processed /DEFAULTLIB:ucrt.lib
+   Processed /DISALLOWLIB:ucrtd.lib
+   Processed /DISALLOWLIB:libucrt.lib
+   Processed /DISALLOWLIB:libucrtd.lib
+        Found _guard_dispatch_icall_nop
+          Referenced in MSVCRT.lib(guard_support.obj)
+          Loaded MSVCRT.lib(guard_dispatch.obj)
+        Found "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z)
+          Referenced in MSVCRT.lib(delete_scalar_size.obj)
+          Loaded MSVCRT.lib(delete_scalar.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\vcruntime.lib:
+        Found __CxxFrameHandler3
+          Referenced in main.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __std_terminate
+          Referenced in main.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __C_specific_handler
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found memset
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __std_type_info_destroy_list
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found __IMPORT_DESCRIPTOR_VCRUNTIME140
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+        Found VCRUNTIME140_NULL_THUNK_DATA
+          Referenced in vcruntime.lib(VCRUNTIME140.dll)
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrt.lib:
+        Found __imp_calloc
+          Referenced in main.obj
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found _seh_filter_dll
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _configure_narrow_argv
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initialize_narrow_environment
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initialize_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _register_onexit_function
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _execute_onexit_table
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _crt_atexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _crt_at_quick_exit
+          Referenced in MSVCRT.lib(utility.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _cexit
+          Referenced in MSVCRT.lib(utility.obj)
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _seh_filter_exe
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _set_app_type
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __setusermatherr
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found _get_initial_narrow_environment
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initterm
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _initterm_e
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found exit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _exit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _set_fmode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __p___argc
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __p___argv
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _c_exit
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _register_thread_local_exe_atexit_callback
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found _configthreadlocale
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+        Found _set_new_mode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __p__commode
+          Referenced in MSVCRT.lib(exe_main.obj)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found terminate
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found free
+          Referenced in MSVCRT.lib(delete_scalar.obj)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0
+          Referenced in ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+        Found api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+        Found api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+        Found api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+        Found api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+        Found api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA
+          Referenced in ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          Loaded ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+        Found __imp_RtlCaptureContext
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_RtlLookupFunctionEntry
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_RtlVirtualUnwind
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_UnhandledExceptionFilter
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_SetUnhandledExceptionFilter
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentProcess
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_TerminateProcess
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found IsProcessorFeaturePresent
+          Referenced in MSVCRT.lib(gs_report.obj)
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_IsDebuggerPresent
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetStartupInfoW
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetModuleHandleW
+          Referenced in MSVCRT.lib(utility_desktop.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_QueryPerformanceCounter
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentProcessId
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetCurrentThreadId
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_GetSystemTimeAsFileTime
+          Referenced in MSVCRT.lib(gs_support.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __imp_InitializeSListHead
+          Referenced in MSVCRT.lib(tncleanup.obj)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found __IMPORT_DESCRIPTOR_KERNEL32
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+        Found KERNEL32_NULL_THUNK_DATA
+          Referenced in kernel32.lib(KERNEL32.dll)
+          Loaded kernel32.lib(KERNEL32.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrt.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\MSVCRT.lib:
+        Found __scrt_stub_for_acrt_initialize
+          Loaded MSVCRT.lib(ucrt_stubs.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\vcruntime.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrt.lib:
+  
+  Finished searching libraries
+  
+  Finished pass 1
+  
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility.obj)
+      Discarded '.pdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.pdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.pdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.pdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.pdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.pdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.pdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.pdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.pdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.pdata' from MSVCRT.lib(utility_desktop.obj)
+      Discarded '.pdata' from MSVCRT.lib(gs_support.obj)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$4' from kernel32.lib(KERNEL32.dll)
+      Discarded __imp__Mbrtowc from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded __imp___std_type_info_destroy_list from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded __imp_calloc from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded __imp__seh_filter_dll from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded __imp__execute_onexit_table from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded __imp__crt_at_quick_exit from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded __imp_GetStartupInfoW from kernel32.lib(KERNEL32.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from kernel32.lib(KERNEL32.dll)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility.obj)
+      Discarded '.xdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.xdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.xdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.xdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.xdata' from MSVCRT.lib(exe_main.obj)
+      Discarded '.xdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.xdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.xdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.xdata' from MSVCRT.lib(gs_report.obj)
+      Discarded '.xdata' from MSVCRT.lib(utility_desktop.obj)
+      Discarded '.xdata' from MSVCRT.lib(gs_support.obj)
+      Discarded _Mbrtowc from msvcprt.lib(MSVCP140.dll)
+      Discarded "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (?_Getdays@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "void (__cdecl** __cdecl __crt_fast_decode_pointer<void (__cdecl**)(void)>(void (__cdecl** const)(void)))(void)" (??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z) from MSVCRT.lib(utility.obj)
+      Discarded "void (__cdecl** __cdecl __crt_fast_encode_pointer<void (__cdecl**)(void)>(void (__cdecl** const)(void)))(void)" (??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z) from MSVCRT.lib(utility.obj)
+      Discarded "unsigned __int64 __cdecl __crt_rotate_pointer_value(unsigned __int64,int)" (?__crt_rotate_pointer_value@@YA_K_KH@Z) from MSVCRT.lib(utility.obj)
+      Discarded "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ) from MSVCRT.lib(utility.obj)
+      Discarded "struct _IMAGE_SECTION_HEADER * __cdecl find_pe_section(unsigned char * const,unsigned __int64)" (?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z) from MSVCRT.lib(utility.obj)
+      Discarded "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ) from MSVCRT.lib(utility.obj)
+      Discarded "bool __cdecl is_potentially_valid_image_base(void * const)" (?is_potentially_valid_image_base@@YA_NQEAX@Z) from MSVCRT.lib(utility.obj)
+      Discarded NtCurrentTeb from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_after_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_before_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_crt_thread_attach from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_crt_thread_detach from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_exception_filter from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_uninitialize_c from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_uninitialize_critical from MSVCRT.lib(utility.obj)
+      Discarded at_quick_exit from MSVCRT.lib(utility.obj)
+      Discarded "public: virtual __cdecl type_info::~type_info(void)" (??1type_info@@UEAA@XZ) from MSVCRT.lib(std_type_info_static.obj)
+      Discarded "int __cdecl __scrt_common_main(void)" (?__scrt_common_main@@YAHXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static void __cdecl __scrt_main_policy::set_app_type(void)" (?set_app_type@__scrt_main_policy@@SAXXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static void __cdecl __scrt_file_policy::set_commode(void)" (?set_commode@__scrt_file_policy@@SAXXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static void __cdecl __scrt_file_policy::set_fmode(void)" (?set_fmode@__scrt_file_policy@@SAXXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded __report_rangecheckfailure from MSVCRT.lib(gs_report.obj)
+      Discarded __report_securityfailure from MSVCRT.lib(gs_report.obj)
+      Discarded __report_securityfailureEx from MSVCRT.lib(gs_report.obj)
+      Discarded capture_current_context from MSVCRT.lib(gs_report.obj)
+      Discarded __scrt_get_show_window_mode from MSVCRT.lib(utility_desktop.obj)
+      Discarded ReadNoFence64 from MSVCRT.lib(guard_support.obj)
+      Discarded ReadPointerNoFence from MSVCRT.lib(guard_support.obj)
+      Discarded _guard_icall_checks_enforced from MSVCRT.lib(guard_support.obj)
+      Discarded _guard_rf_checks_enforced from MSVCRT.lib(guard_support.obj)
+      Discarded __get_entropy from MSVCRT.lib(gs_support.obj)
+      Discarded "void __cdecl __scrt_uninitialize_type_info(void)" (?__scrt_uninitialize_type_info@@YAXXZ) from MSVCRT.lib(tncleanup.obj)
+      Discarded __std_type_info_destroy_list from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded calloc from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded _seh_filter_dll from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded _execute_onexit_table from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded _crt_at_quick_exit from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded GetStartupInfoW from kernel32.lib(KERNEL32.dll)
+  Generating code
+  29 of 31 functions (93.5%) were compiled, the rest were copied from previous compilation.
+    22 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+      6% | /    8% - \   21% |   22% /   23% -   25% \   27% | /   38% -   42% \   45% | / -   48% \   50%   50% / |   54% - \ |   60% /   64% -   67% \   88% |   90% /   97% -   99%   0 seconds remaining               \  100%   0 seconds remaining                
+  Finished generating code
+  
+  Searching libraries
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\MSVCRT.lib:
+        Found __GSHandlerCheck_EH
+          Referenced in main.obj
+          Loaded MSVCRT.lib(gshandlereh.obj)
+        Found __GSHandlerCheckCommon
+          Referenced in MSVCRT.lib(gshandlereh.obj)
+          Loaded MSVCRT.lib(gshandler.obj)
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\OLDNAMES.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\vcruntime.lib:
+        Found __RTDynamicCast
+          Referenced in main.obj
+          Loaded vcruntime.lib(VCRUNTIME140.dll)
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\ucrt\x64\ucrt.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\MSVCRT.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\OLDNAMES.lib:
+  
+  Finished searching libraries
+  
+  Searching libraries
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-system.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-graphics.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib:
+      Searching C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-window.lib:
+      Searching C:\Programming\sfml tgui vs 16\TGUI-0.8\lib\tgui.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\kernel32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib:
+      Searching C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\msvcprt.lib:
+      Searching C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\MSVCRT.lib:
+        Found _load_config_used
+          Loaded MSVCRT.lib(loadcfg.obj)
+  
+  Finished searching libraries
+  
+  Invoking rc.exe:
+   /v
+   /x
+   /fo
+   "C:\Users\Andru\AppData\Local\Temp\lnk{6B736F62-D130-47B2-8E4D-990D071ABBC1}.tmp"
+   "C:\Users\Andru\AppData\Local\Temp\lnk{15BCF405-1538-4E9C-B721-B61505D0542B}.tmp"
+  Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+  
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  
+  Creating C:\Users\Andru\AppData\Local\Temp\lnk{6B736F62-D130-47B2-8E4D-990D071ABBC1}.tmp
+  
+  Using codepage 1252 as default
+  
+  C:\Users\Andru\AppData\Local\Temp\lnk{15BCF405-1538-4E9C-B721-B61505D0542B}.tmp.
+  Writing 24:1,	lang:0x409,	size 381
+  
+  Invoking cvtres.exe:
+   /machine:amd64
+   /verbose
+   /out:"C:\Users\Andru\AppData\Local\Temp\lnk{E6058E95-D5E6-4C2E-9D49-F9B3F350B9D4}.tmp"
+   /readonly
+   "C:\Users\Andru\AppData\Local\Temp\lnk{6B736F62-D130-47B2-8E4D-990D071ABBC1}.tmp"
+  Microsoft (R) Windows Resource To Object Converter Version 14.20.27508.1
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  adding resource. type:MANIFEST, name:1, language:0x0409, flags:0x30, size:381
+  
+  
+  Unused libraries:
+    C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-network.lib
+    C:\Programming\sfml vs 17\SFML-2.5.1 x64\lib\sfml-audio.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\user32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\gdi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\winspool.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\comdlg32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\advapi32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\shell32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\ole32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\oleaut32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\uuid.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbc32.lib
+    C:\Program Files (x86)\Windows Kits\10\lib\10.0.17763.0\um\x64\odbccp32.lib
+    C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\lib\x64\OLDNAMES.lib
+  
+  
+  Processing /ORDER options
+      External code objects not listed in the /ORDER file:
+  
+          _cexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _get_startup_thread_locale_mode		; MSVCRT.lib(thread_locale.obj)
+          __GSHandlerCheck		; MSVCRT.lib(gshandler.obj)
+          ??_C@_0L@IBKINAHL@MMO?5Client@		; main.obj
+          ??1Gui@tgui@@QEAA@XZ		; tgui.lib(tgui.dll)
+          __imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z		; sfml-graphics.lib(sfml-graphics-2.dll)
+          __imp_GetModuleHandleW		; kernel32.lib(KERNEL32.dll)
+          IsDebuggerPresent		; kernel32.lib(KERNEL32.dll)
+          ??_R0?AVtype_info@@@8		; MSVCRT.lib(std_type_info_static.obj)
+          __std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
+          __imp___p___argc		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          mainCRTStartup		; MSVCRT.lib(exe_main.obj)
+          __scrt_get_show_window_mode		; MSVCRT.lib(utility_desktop.obj)
+          __imp_??0VideoMode@sf@@QEAA@III@Z		; sfml-window.lib(sfml-window-2.dll)
+          _initialize_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA		; MSVCRT.lib(default_local_stdio_options.obj)
+          __imp_?add@Gui@tgui@@QEAAXAEBV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z		; tgui.lib(tgui.dll)
+          __imp__execute_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_initialize_winrt		; MSVCRT.lib(utility_desktop.obj)
+          __std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
+          _crt_at_quick_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??_R1A@?0A@EA@type_info@@8		; MSVCRT.lib(std_type_info_static.obj)
+          ?get@Container@tgui@@QEBA?AV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z		; tgui.lib(tgui.dll)
+          ??0Gui@tgui@@QEAA@AEAVRenderTarget@sf@@@Z		; tgui.lib(tgui.dll)
+          terminate		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          NtCurrentTeb		; MSVCRT.lib(utility.obj)
+          ??_C@_00CNPNBAHC@@		; main.obj
+          __imp_?create@Window@sf@@QEAAXVVideoMode@2@AEBVString@2@IAEBUContextSettings@2@@Z		; sfml-window.lib(sfml-window-2.dll)
+          __imp__register_onexit_function		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          RtlCaptureContext		; kernel32.lib(KERNEL32.dll)
+          __imp_??0Gui@tgui@@QEAA@AEAVRenderTarget@sf@@@Z		; tgui.lib(tgui.dll)
+          __p__commode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          ??1type_info@@UEAA@XZ		; MSVCRT.lib(std_type_info_static.obj)
+          _get_initial_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp_??0RenderWindow@sf@@QEAA@XZ		; sfml-graphics.lib(sfml-graphics-2.dll)
+          ??3@YAXPEAX_K@Z		; MSVCRT.lib(delete_scalar_size.obj)
+          __scrt_dllmain_before_initialize_c		; MSVCRT.lib(utility.obj)
+          _initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?__scrt_uninitialize_type_info@@YAXXZ		; MSVCRT.lib(tncleanup.obj)
+          __imp_??1RenderWindow@sf@@UEAA@XZ		; sfml-graphics.lib(sfml-graphics-2.dll)
+          __imp_QueryPerformanceCounter		; kernel32.lib(KERNEL32.dll)
+          __guard_dispatch_icall_fptr		; MSVCRT.lib(guard_support.obj)
+          __imp_GetCurrentProcessId		; kernel32.lib(KERNEL32.dll)
+          __imp_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp_terminate		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp__configthreadlocale		; ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          ??_R3type_info@@8		; MSVCRT.lib(std_type_info_static.obj)
+          __scrt_is_user_matherr_present		; MSVCRT.lib(matherr_detection.obj)
+          __imp_free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          __raise_securityfailure		; MSVCRT.lib(gs_report.obj)
+          __scrt_dllmain_uninitialize_critical		; MSVCRT.lib(utility.obj)
+          __scrt_stub_for_acrt_initialize		; MSVCRT.lib(ucrt_stubs.obj)
+          __imp_??1String@sf@@QEAA@XZ		; sfml-system.lib(sfml-system-2.dll)
+          ?handleEvent@Gui@tgui@@QEAA_NVEvent@sf@@@Z		; tgui.lib(tgui.dll)
+          ?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z		; sfml-window.lib(sfml-window-2.dll)
+          _guard_rf_checks_enforced		; MSVCRT.lib(guard_support.obj)
+          __scrt_dllmain_after_initialize_c		; MSVCRT.lib(utility.obj)
+          _register_thread_local_exe_atexit_callback		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_dllmain_exception_filter		; MSVCRT.lib(utility.obj)
+          _crt_atexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp___p__commode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          UnhandledExceptionFilter		; kernel32.lib(KERNEL32.dll)
+          ??_C@_0N@EBIOFEOK@button_LogIn@		; main.obj
+          __imp__configure_narrow_argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __local_stdio_scanf_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          ?display@Window@sf@@QEAAXXZ		; sfml-window.lib(sfml-window-2.dll)
+          __imp___C_specific_handler		; vcruntime.lib(VCRUNTIME140.dll)
+          __imp_GetStartupInfoW		; kernel32.lib(KERNEL32.dll)
+          ??0VideoMode@sf@@QEAA@III@Z		; sfml-window.lib(sfml-window-2.dll)
+          InitializeSListHead		; kernel32.lib(KERNEL32.dll)
+          ?draw@Gui@tgui@@QEAAXXZ		; tgui.lib(tgui.dll)
+          _get_startup_commit_mode		; MSVCRT.lib(commit_mode.obj)
+          ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z		; msvcprt.lib(MSVCP140.dll)
+          _RTC_Terminate		; MSVCRT.lib(initsect.obj)
+          __report_gsfailure		; MSVCRT.lib(gs_report.obj)
+          __imp_GetCurrentProcess		; kernel32.lib(KERNEL32.dll)
+          __GSHandlerCheckCommon		; MSVCRT.lib(gshandler.obj)
+          _initialize_invalid_parameter_handler		; MSVCRT.lib(invalid_parameter_handler.obj)
+          GetCurrentProcessId		; kernel32.lib(KERNEL32.dll)
+          __scrt_dllmain_crt_thread_detach		; MSVCRT.lib(utility.obj)
+          __imp_InitializeSListHead		; kernel32.lib(KERNEL32.dll)
+          _matherr		; MSVCRT.lib(matherr.obj)
+          __imp__set_fmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          ??_Gtype_info@@UEAAPEAXI@Z		; MSVCRT.lib(std_type_info_static.obj)
+          __crt_debugger_hook		; MSVCRT.lib(utility_desktop.obj)
+          _configure_narrow_argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp_memset		; vcruntime.lib(VCRUNTIME140.dll)
+          __scrt_stub_for_acrt_uninitialize_critical		; MSVCRT.lib(ucrt_stubs.obj)
+          _set_app_type		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?set_commode@__scrt_file_policy@@SAXXZ		; MSVCRT.lib(exe_main.obj)
+          IsProcessorFeaturePresent		; kernel32.lib(KERNEL32.dll)
+          __scrt_dllmain_uninitialize_c		; MSVCRT.lib(utility.obj)
+          GetCurrentProcess		; kernel32.lib(KERNEL32.dll)
+          _set_fmode		; ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+          __scrt_initialize_onexit_tables		; MSVCRT.lib(utility.obj)
+          __CxxFrameHandler3		; vcruntime.lib(VCRUNTIME140.dll)
+          __imp_?_Getdays@_Locinfo@std@@QEBAPEBDXZ		; msvcprt.lib(MSVCP140.dll)
+          __report_securityfailureEx		; MSVCRT.lib(gs_report.obj)
+          atexit		; MSVCRT.lib(utility.obj)
+          __imp___std_type_info_destroy_list		; vcruntime.lib(VCRUNTIME140.dll)
+          __p___argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_initialize_mta		; MSVCRT.lib(utility_desktop.obj)
+          _configthreadlocale		; ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+          at_quick_exit		; MSVCRT.lib(utility.obj)
+          ??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z		; sfml-system.lib(sfml-system-2.dll)
+          __imp__set_new_mode		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _seh_filter_dll		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _initterm		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _guard_check_icall_nop		; MSVCRT.lib(guard_support.obj)
+          ?isOpen@Window@sf@@QEBA_NXZ		; sfml-window.lib(sfml-window-2.dll)
+          __imp__crt_atexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_set_unhandled_exception_filter		; MSVCRT.lib(utility_desktop.obj)
+          __imp_?handleEvent@Gui@tgui@@QEAA_NVEvent@sf@@@Z		; tgui.lib(tgui.dll)
+          __imp___CxxFrameHandler3		; vcruntime.lib(VCRUNTIME140.dll)
+          _get_startup_new_mode		; MSVCRT.lib(new_mode.obj)
+          __scrt_get_dyn_tls_init_callback		; MSVCRT.lib(dyn_tls_init.obj)
+          __scrt_dllmain_crt_thread_attach		; MSVCRT.lib(utility.obj)
+          __scrt_stub_for_acrt_thread_attach		; MSVCRT.lib(ucrt_stubs.obj)
+          __scrt_stub_for_acrt_thread_detach		; MSVCRT.lib(ucrt_stubs.obj)
+          ??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z		; MSVCRT.lib(utility.obj)
+          __report_rangecheckfailure		; MSVCRT.lib(gs_report.obj)
+          ??_R0?AVWidget@tgui@@@8		; main.obj
+          __imp__Mbrtowc		; msvcprt.lib(MSVCP140.dll)
+          __scrt_initialize_default_local_stdio_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          ??_R2type_info@@8		; MSVCRT.lib(std_type_info_static.obj)
+          __imp___setusermatherr		; ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          ??0Color@sf@@QEAA@EEEE@Z		; sfml-graphics.lib(sfml-graphics-2.dll)
+          __imp___std_terminate		; vcruntime.lib(VCRUNTIME140.dll)
+          ??0RenderWindow@sf@@QEAA@XZ		; sfml-graphics.lib(sfml-graphics-2.dll)
+          __imp_TerminateProcess		; kernel32.lib(KERNEL32.dll)
+          __imp__seh_filter_exe		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          memset		; vcruntime.lib(VCRUNTIME140.dll)
+          GetSystemTimeAsFileTime		; kernel32.lib(KERNEL32.dll)
+          ?add@Gui@tgui@@QEAAXAEBV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z		; tgui.lib(tgui.dll)
+          __imp__get_initial_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_get_dyn_tls_dtor_callback		; MSVCRT.lib(dyn_tls_dtor.obj)
+          __imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ		; msvcprt.lib(MSVCP140.dll)
+          __scrt_acquire_startup_lock		; MSVCRT.lib(utility.obj)
+          ReadNoFence64		; MSVCRT.lib(guard_support.obj)
+          _set_new_mode		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          __imp_?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z		; msvcprt.lib(MSVCP140.dll)
+          ?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ		; msvcprt.lib(MSVCP140.dll)
+          _seh_filter_exe		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _guard_icall_checks_enforced		; MSVCRT.lib(guard_support.obj)
+          __p___argc		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?close@Window@sf@@QEAAXXZ		; sfml-window.lib(sfml-window-2.dll)
+          ReadPointerNoFence		; MSVCRT.lib(guard_support.obj)
+          __imp__initialize_narrow_environment		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp__c_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ??1RenderWindow@sf@@UEAA@XZ		; sfml-graphics.lib(sfml-graphics-2.dll)
+          __scrt_stub_for_initialize_mta		; MSVCRT.lib(utility_desktop.obj)
+          ??_R0?AVButton@tgui@@@8		; main.obj
+          TerminateProcess		; kernel32.lib(KERNEL32.dll)
+          __imp___p___argv		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __scrt_unhandled_exception_filter		; MSVCRT.lib(utility_desktop.obj)
+          _execute_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          RtlLookupFunctionEntry		; kernel32.lib(KERNEL32.dll)
+          ?__crt_rotate_pointer_value@@YA_K_KH@Z		; MSVCRT.lib(utility.obj)
+          __dyn_tls_dtor_callback
+          __imp_?display@Window@sf@@QEAAXXZ		; sfml-window.lib(sfml-window-2.dll)
+          ?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ		; msvcprt.lib(MSVCP140.dll)
+          __scrt_fastfail		; MSVCRT.lib(utility_desktop.obj)
+          ?_Xbad_alloc@std@@YAXXZ		; msvcprt.lib(MSVCP140.dll)
+          __scrt_is_nonwritable_in_current_image		; MSVCRT.lib(utility.obj)
+          __imp_?close@Window@sf@@QEAAXXZ		; sfml-window.lib(sfml-window-2.dll)
+          ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ		; MSVCRT.lib(utility.obj)
+          _get_startup_argv_mode		; MSVCRT.lib(argv_mode.obj)
+          __imp__initterm_e		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp_?isOpen@Window@sf@@QEBA_NXZ		; sfml-window.lib(sfml-window-2.dll)
+          ?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z		; sfml-graphics.lib(sfml-graphics-2.dll)
+          ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA		; MSVCRT.lib(default_local_stdio_options.obj)
+          __imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z		; sfml-system.lib(sfml-system-2.dll)
+          RtlVirtualUnwind		; kernel32.lib(KERNEL32.dll)
+          __scrt_is_ucrt_dll_in_use		; MSVCRT.lib(ucrt_detection.obj)
+          __C_specific_handler		; vcruntime.lib(VCRUNTIME140.dll)
+          ??3@YAXPEAX@Z		; MSVCRT.lib(delete_scalar.obj)
+          __imp_?_Xbad_alloc@std@@YAXXZ		; msvcprt.lib(MSVCP140.dll)
+          SetUnhandledExceptionFilter		; kernel32.lib(KERNEL32.dll)
+          __imp__set_app_type		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp__crt_at_quick_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          GetCurrentThreadId		; kernel32.lib(KERNEL32.dll)
+          __imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ		; msvcprt.lib(MSVCP140.dll)
+          __imp__initialize_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          GetModuleHandleW		; kernel32.lib(KERNEL32.dll)
+          __GSHandlerCheck_EH		; MSVCRT.lib(gshandlereh.obj)
+          _exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __RTDynamicCast		; vcruntime.lib(VCRUNTIME140.dll)
+          __imp_?draw@Gui@tgui@@QEAAXXZ		; tgui.lib(tgui.dll)
+          ?set_fmode@__scrt_file_policy@@SAXXZ		; MSVCRT.lib(exe_main.obj)
+          free		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          ??1String@sf@@QEAA@XZ		; sfml-system.lib(sfml-system-2.dll)
+          __scrt_stub_for_is_c_termination_complete		; MSVCRT.lib(ucrt_stubs.obj)
+          ?_Getdays@_Locinfo@std@@QEBAPEBDXZ		; msvcprt.lib(MSVCP140.dll)
+          _initialize_denormal_control		; MSVCRT.lib(denormal_control.obj)
+          _c_exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp_RtlLookupFunctionEntry		; kernel32.lib(KERNEL32.dll)
+          ?__scrt_initialize_type_info@@YAXXZ		; MSVCRT.lib(tncleanup.obj)
+          __scrt_is_managed_app		; MSVCRT.lib(utility_desktop.obj)
+          __imp_RtlCaptureContext		; kernel32.lib(KERNEL32.dll)
+          ?create@Window@sf@@QEAAXVVideoMode@2@AEBVString@2@IAEBUContextSettings@2@@Z		; sfml-window.lib(sfml-window-2.dll)
+          ??_C@_0N@LPFKKEBD@?3AM?3am?3PM?3pm@		; main.obj
+          __imp_IsDebuggerPresent		; kernel32.lib(KERNEL32.dll)
+          __scrt_uninitialize_crt		; MSVCRT.lib(utility.obj)
+          _onexit		; MSVCRT.lib(utility.obj)
+          GetStartupInfoW		; kernel32.lib(KERNEL32.dll)
+          calloc		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          _Mbrtowc		; msvcprt.lib(MSVCP140.dll)
+          __isa_available_init		; MSVCRT.lib(cpu_disp.obj)
+          __imp_??1Gui@tgui@@QEAA@XZ		; tgui.lib(tgui.dll)
+          __scrt_initialize_crt		; MSVCRT.lib(utility.obj)
+          __local_stdio_printf_options		; MSVCRT.lib(default_local_stdio_options.obj)
+          __imp_?_Getmonths@_Locinfo@std@@QEBAPEBDXZ		; msvcprt.lib(MSVCP140.dll)
+          _should_initialize_environment		; MSVCRT.lib(env_mode.obj)
+          ??_R4type_info@@6B@		; MSVCRT.lib(std_type_info_static.obj)
+          __imp_?get@Container@tgui@@QEBA?AV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z		; tgui.lib(tgui.dll)
+          ?_Getmonths@_Locinfo@std@@QEBAPEBDXZ		; msvcprt.lib(MSVCP140.dll)
+          __report_securityfailure		; MSVCRT.lib(gs_report.obj)
+          __imp_calloc		; ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+          ??_C@_1BK@MHIKGOKE@?$AA?3?$AAA?$AAM?$AA?3?$AAa?$AAm?$AA?3?$AAP?$AAM?$AA?3?$AAp?$AAm@		; main.obj
+          ??_7type_info@@6B@		; MSVCRT.lib(std_type_info_static.obj)
+          __imp__register_thread_local_exe_atexit_callback		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp__exit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp__initterm		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __imp___RTDynamicCast		; vcruntime.lib(VCRUNTIME140.dll)
+          __imp_RtlVirtualUnwind		; kernel32.lib(KERNEL32.dll)
+          __imp_GetCurrentThreadId		; kernel32.lib(KERNEL32.dll)
+          __imp__seh_filter_dll		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          ?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ		; msvcprt.lib(MSVCP140.dll)
+          __security_init_cookie		; MSVCRT.lib(gs_support.obj)
+          __imp_SetUnhandledExceptionFilter		; kernel32.lib(KERNEL32.dll)
+          ??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z		; MSVCRT.lib(utility.obj)
+          __scrt_stub_for_acrt_uninitialize		; MSVCRT.lib(ucrt_stubs.obj)
+          ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ		; MSVCRT.lib(utility.obj)
+          __imp_IsProcessorFeaturePresent		; kernel32.lib(KERNEL32.dll)
+          _register_onexit_function		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __dyn_tls_init_callback
+          __imp_UnhandledExceptionFilter		; kernel32.lib(KERNEL32.dll)
+          __imp_?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z		; sfml-window.lib(sfml-window-2.dll)
+          __imp_?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ		; msvcprt.lib(MSVCP140.dll)
+          QueryPerformanceCounter		; kernel32.lib(KERNEL32.dll)
+          __imp__cexit		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          __setusermatherr		; ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+          ?set_app_type@__scrt_main_policy@@SAXXZ		; MSVCRT.lib(exe_main.obj)
+          __imp_??0Color@sf@@QEAA@EEEE@Z		; sfml-graphics.lib(sfml-graphics-2.dll)
+          __guard_check_icall_fptr		; MSVCRT.lib(guard_support.obj)
+          __imp_GetSystemTimeAsFileTime		; kernel32.lib(KERNEL32.dll)
+          _get_startup_file_mode		; MSVCRT.lib(file_mode.obj)
+          _initialize_onexit_table		; ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+          _RTC_Initialize		; MSVCRT.lib(initsect.obj)
+          __scrt_release_startup_lock		; MSVCRT.lib(utility.obj)
+          _load_config_used		; MSVCRT.lib(loadcfg.obj)
+  
+  Finished processing /ORDER options
+      Discarded "`string'" (??_C@_0N@LPFKKEBD@?3AM?3am?3PM?3pm@) from main.obj
+      Discarded "`string'" (??_C@_1BK@MHIKGOKE@?$AA?3?$AAA?$AAM?$AA?3?$AAa?$AAm?$AA?3?$AAP?$AAM?$AA?3?$AAp?$AAm@) from main.obj
+      Discarded $cppxdata$??$dynamic_pointer_cast@VButton@tgui@@VWidget@2@@std@@YA?AV?$shared_ptr@VButton@tgui@@@0@AEBV?$shared_ptr@VWidget@tgui@@@0@@Z from main.obj
+      Discarded $cppxdata$??$get@VButton@tgui@@@Container@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $cppxdata$??$get@VButton@tgui@@@Gui@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $cppxdata$??0locale@std@@QEAA@XZ from main.obj
+      Discarded $unwind$?_Decref@_Ref_count_base@std@@QEAAXXZ from main.obj
+      Discarded $unwind$??0locale@std@@QEAA@XZ from main.obj
+      Discarded $ip2state$??0locale@std@@QEAA@XZ from main.obj
+      Discarded $unwind$?Run@@YAXXZ from main.obj
+      Discarded $unwind$?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $chain$0$?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $chain$1$?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $unwind$?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $chain$0$?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $chain$1$?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $unwind$??$get@VButton@tgui@@@Gui@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $stateUnwindMap$??$get@VButton@tgui@@@Gui@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $ip2state$??$get@VButton@tgui@@@Gui@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $unwind$??$get@VButton@tgui@@@Container@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $stateUnwindMap$??$get@VButton@tgui@@@Container@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $ip2state$??$get@VButton@tgui@@@Container@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $unwind$??$dynamic_pointer_cast@VButton@tgui@@VWidget@2@@std@@YA?AV?$shared_ptr@VButton@tgui@@@0@AEBV?$shared_ptr@VWidget@tgui@@@0@@Z from main.obj
+      Discarded $ip2state$??$dynamic_pointer_cast@VButton@tgui@@VWidget@2@@std@@YA?AV?$shared_ptr@VButton@tgui@@@0@AEBV?$shared_ptr@VWidget@tgui@@@0@@Z from main.obj
+      Discarded $unwind$__scrt_dllmain_exception_filter from MSVCRT.lib(utility.obj)
+      Discarded $unwind$__scrt_dllmain_before_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded $unwind$__scrt_dllmain_after_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded $unwind$__scrt_dllmain_uninitialize_c from MSVCRT.lib(utility.obj)
+      Discarded $unwind$__scrt_dllmain_uninitialize_critical from MSVCRT.lib(utility.obj)
+      Discarded $unwind$__scrt_dllmain_crt_thread_attach from MSVCRT.lib(utility.obj)
+      Discarded $unwind$__scrt_dllmain_crt_thread_detach from MSVCRT.lib(utility.obj)
+      Discarded $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ from MSVCRT.lib(utility.obj)
+      Discarded $unwind$?set_fmode@__scrt_file_policy@@SAXXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $unwind$?set_commode@__scrt_file_policy@@SAXXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $unwind$?invoke_main@@YAHXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $unwind$?__scrt_common_main@@YAHXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $unwind$__report_securityfailure from MSVCRT.lib(gs_report.obj)
+      Discarded $unwind$__report_securityfailureEx from MSVCRT.lib(gs_report.obj)
+      Discarded $unwind$__report_rangecheckfailure from MSVCRT.lib(gs_report.obj)
+      Discarded $unwind$capture_current_context from MSVCRT.lib(gs_report.obj)
+      Discarded $unwind$__scrt_get_show_window_mode from MSVCRT.lib(utility_desktop.obj)
+      Discarded $unwind$__get_entropy from MSVCRT.lib(gs_support.obj)
+      Discarded $unwind$__GSHandlerCheck from MSVCRT.lib(gshandler.obj)
+      Discarded $pdata$__scrt_dllmain_exception_filter from MSVCRT.lib(utility.obj)
+      Discarded $pdata$__scrt_dllmain_before_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded $pdata$__scrt_dllmain_after_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded $pdata$__scrt_dllmain_uninitialize_c from MSVCRT.lib(utility.obj)
+      Discarded $pdata$__scrt_dllmain_uninitialize_critical from MSVCRT.lib(utility.obj)
+      Discarded $pdata$__scrt_dllmain_crt_thread_attach from MSVCRT.lib(utility.obj)
+      Discarded $pdata$__scrt_dllmain_crt_thread_detach from MSVCRT.lib(utility.obj)
+      Discarded $pdata$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ from MSVCRT.lib(utility.obj)
+      Discarded $pdata$?set_fmode@__scrt_file_policy@@SAXXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $pdata$?set_commode@__scrt_file_policy@@SAXXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $pdata$?invoke_main@@YAHXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $pdata$?__scrt_common_main@@YAHXZ from MSVCRT.lib(exe_main.obj)
+      Discarded $pdata$__report_securityfailure from MSVCRT.lib(gs_report.obj)
+      Discarded $pdata$__report_securityfailureEx from MSVCRT.lib(gs_report.obj)
+      Discarded $pdata$__report_rangecheckfailure from MSVCRT.lib(gs_report.obj)
+      Discarded $pdata$capture_current_context from MSVCRT.lib(gs_report.obj)
+      Discarded $pdata$__scrt_get_show_window_mode from MSVCRT.lib(utility_desktop.obj)
+      Discarded $pdata$__get_entropy from MSVCRT.lib(gs_support.obj)
+      Discarded $pdata$??$dynamic_pointer_cast@VButton@tgui@@VWidget@2@@std@@YA?AV?$shared_ptr@VButton@tgui@@@0@AEBV?$shared_ptr@VWidget@tgui@@@0@@Z from main.obj
+      Discarded $pdata$??$get@VButton@tgui@@@Container@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $pdata$??$get@VButton@tgui@@@Gui@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z from main.obj
+      Discarded $pdata$?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $pdata$0$?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $pdata$1$?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $pdata$?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $pdata$0$?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $pdata$1$?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ from main.obj
+      Discarded $pdata$?Run@@YAXXZ from main.obj
+      Discarded $pdata$??0locale@std@@QEAA@XZ from main.obj
+      Discarded $pdata$?_Decref@_Ref_count_base@std@@QEAAXXZ from main.obj
+      Discarded $pdata$__GSHandlerCheck from MSVCRT.lib(gshandler.obj)
+      Discarded '.idata$4' from kernel32.lib(KERNEL32.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$4' from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$4' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded __imp_GetStartupInfoW from kernel32.lib(KERNEL32.dll)
+      Discarded "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (__imp_?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (__imp_?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (__imp_?_Getdays@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (__imp_?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (__imp_?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded __imp__Mbrtowc from msvcprt.lib(MSVCP140.dll)
+      Discarded "__declspec(dllimport) void __cdecl std::_Xbad_alloc(void)" (__imp_?_Xbad_alloc@std@@YAXXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded __imp___std_type_info_destroy_list from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded __imp_calloc from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded __imp__execute_onexit_table from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded __imp__crt_at_quick_exit from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded __imp__seh_filter_dll from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from msvcprt.lib(MSVCP140.dll)
+      Discarded '.idata$6' from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded '.idata$6' from kernel32.lib(KERNEL32.dll)
+      Discarded "public: void __cdecl std::_Ref_count_base::_Incref(void)" (?_Incref@_Ref_count_base@std@@QEAAXXZ) from main.obj
+      Discarded "public: void __cdecl std::_Ref_count_base::_Decref(void)" (?_Decref@_Ref_count_base@std@@QEAAXXZ) from main.obj
+      Discarded "public: void __cdecl std::_Ref_count_base::_Decwref(void)" (?_Decwref@_Ref_count_base@std@@QEAAXXZ) from main.obj
+      Discarded "public: __cdecl std::locale::locale(void)" (??0locale@std@@QEAA@XZ) from main.obj
+      Discarded "public: __cdecl sf::ContextSettings::ContextSettings(unsigned int,unsigned int,unsigned int,unsigned int,unsigned int,unsigned int,bool)" (??0ContextSettings@sf@@QEAA@IIIIII_N@Z) from main.obj
+      Discarded "public: void __cdecl aurora::detail::SafeBoolHolder::function(void)" (?function@SafeBoolHolder@detail@aurora@@QEAAXXZ) from main.obj
+      Discarded "void __cdecl Run(void)" (?Run@@YAXXZ) from main.obj
+      Discarded "public: void __cdecl std::shared_ptr<class tgui::Button>::__autoclassinit2(unsigned __int64)" (?__autoclassinit2@?$shared_ptr@VButton@tgui@@@std@@QEAAX_K@Z) from main.obj
+      Discarded "void __cdecl Render(void)" (?Render@@YAXXZ) from main.obj
+      Discarded "protected: __cdecl std::_Ptr_base<class tgui::Widget>::_Ptr_base<class tgui::Widget>(void)" (??0?$_Ptr_base@VWidget@tgui@@@std@@IEAA@XZ) from main.obj
+      Discarded "protected: void __cdecl std::_Ptr_base<class tgui::Button>::_Decref(void)" (?_Decref@?$_Ptr_base@VButton@tgui@@@std@@IEAAXXZ) from main.obj
+      Discarded "protected: void __cdecl std::_Ptr_base<class tgui::Widget>::_Decref(void)" (?_Decref@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXXZ) from main.obj
+      Discarded "public: __cdecl std::shared_ptr<class tgui::Widget>::shared_ptr<class tgui::Widget><class tgui::Button,0>(class std::shared_ptr<class tgui::Button> const &)" (??$?0VButton@tgui@@$0A@@?$shared_ptr@VWidget@tgui@@@std@@QEAA@AEBV?$shared_ptr@VButton@tgui@@@1@@Z) from main.obj
+      Discarded "public: class std::shared_ptr<class tgui::Button> __cdecl tgui::Gui::get<class tgui::Button>(class sf::String const &)const " (??$get@VButton@tgui@@@Gui@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z) from main.obj
+      Discarded "public: __cdecl std::shared_ptr<class tgui::Button>::shared_ptr<class tgui::Button>(void)" (??0?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ) from main.obj
+      Discarded "protected: class tgui::Widget * __cdecl std::_Ptr_base<class tgui::Widget>::get(void)const " (?get@?$_Ptr_base@VWidget@tgui@@@std@@IEBAPEAVWidget@tgui@@XZ) from main.obj
+      Discarded "protected: __cdecl std::_Ptr_base<class tgui::Button>::_Ptr_base<class tgui::Button>(void)" (??0?$_Ptr_base@VButton@tgui@@@std@@IEAA@XZ) from main.obj
+      Discarded "public: class tgui::GuiContainer * __cdecl std::shared_ptr<class tgui::GuiContainer>::operator-><class tgui::GuiContainer,0>(void)const " (??$?CVGuiContainer@tgui@@$0A@@?$shared_ptr@VGuiContainer@tgui@@@std@@QEBAPEAVGuiContainer@tgui@@XZ) from main.obj
+      Discarded "protected: void __cdecl std::_Ptr_base<class tgui::Widget>::_Copy_construct_from<class tgui::Button>(class std::shared_ptr<class tgui::Button> const &)" (??$_Copy_construct_from@VButton@tgui@@@?$_Ptr_base@VWidget@tgui@@@std@@IEAAXAEBV?$shared_ptr@VButton@tgui@@@1@@Z) from main.obj
+      Discarded "public: class std::shared_ptr<class tgui::Button> __cdecl tgui::Container::get<class tgui::Button>(class sf::String const &)const " (??$get@VButton@tgui@@@Container@tgui@@QEBA?AV?$shared_ptr@VButton@tgui@@@std@@AEBVString@sf@@@Z) from main.obj
+      Discarded "protected: class tgui::GuiContainer * __cdecl std::_Ptr_base<class tgui::GuiContainer>::get(void)const " (?get@?$_Ptr_base@VGuiContainer@tgui@@@std@@IEBAPEAVGuiContainer@tgui@@XZ) from main.obj
+      Discarded "class std::shared_ptr<class tgui::Button> __cdecl std::dynamic_pointer_cast<class tgui::Button,class tgui::Widget>(class std::shared_ptr<class tgui::Widget> const &)" (??$dynamic_pointer_cast@VButton@tgui@@VWidget@2@@std@@YA?AV?$shared_ptr@VButton@tgui@@@0@AEBV?$shared_ptr@VWidget@tgui@@@0@@Z) from main.obj
+      Discarded "public: __cdecl std::shared_ptr<class tgui::Button>::shared_ptr<class tgui::Button><class tgui::Widget>(class std::shared_ptr<class tgui::Widget> const &,class tgui::Button *)" (??$?0VWidget@tgui@@@?$shared_ptr@VButton@tgui@@@std@@QEAA@AEBV?$shared_ptr@VWidget@tgui@@@1@PEAVButton@tgui@@@Z) from main.obj
+      Discarded "protected: void __cdecl std::_Ptr_base<class tgui::Button>::_Alias_construct_from<class tgui::Widget>(class std::shared_ptr<class tgui::Widget> const &,class tgui::Button *)" (??$_Alias_construct_from@VWidget@tgui@@@?$_Ptr_base@VButton@tgui@@@std@@IEAAXAEBV?$shared_ptr@VWidget@tgui@@@1@PEAVButton@tgui@@@Z) from main.obj
+      Discarded "public: __cdecl sf::String::String(char const *,class std::locale const &)" (??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) from sfml-system.lib(sfml-system-2.dll)
+      Discarded "public: __cdecl sf::String::~String(void)" (??1String@sf@@QEAA@XZ) from sfml-system.lib(sfml-system-2.dll)
+      Discarded "public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (??1RenderWindow@sf@@UEAA@XZ) from sfml-graphics.lib(sfml-graphics-2.dll)
+      Discarded "public: __cdecl sf::RenderWindow::RenderWindow(void)" (??0RenderWindow@sf@@QEAA@XZ) from sfml-graphics.lib(sfml-graphics-2.dll)
+      Discarded "public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (??0Color@sf@@QEAA@EEEE@Z) from sfml-graphics.lib(sfml-graphics-2.dll)
+      Discarded "public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) from sfml-graphics.lib(sfml-graphics-2.dll)
+      Discarded "public: void __cdecl sf::Window::display(void)" (?display@Window@sf@@QEAAXXZ) from sfml-window.lib(sfml-window-2.dll)
+      Discarded "public: bool __cdecl sf::Window::pollEvent(class sf::Event &)" (?pollEvent@Window@sf@@QEAA_NAEAVEvent@2@@Z) from sfml-window.lib(sfml-window-2.dll)
+      Discarded "public: bool __cdecl sf::Window::isOpen(void)const " (?isOpen@Window@sf@@QEBA_NXZ) from sfml-window.lib(sfml-window-2.dll)
+      Discarded "public: void __cdecl sf::Window::close(void)" (?close@Window@sf@@QEAAXXZ) from sfml-window.lib(sfml-window-2.dll)
+      Discarded "public: void __cdecl sf::Window::create(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (?create@Window@sf@@QEAAXVVideoMode@2@AEBVString@2@IAEBUContextSettings@2@@Z) from sfml-window.lib(sfml-window-2.dll)
+      Discarded "public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (??0VideoMode@sf@@QEAA@III@Z) from sfml-window.lib(sfml-window-2.dll)
+      Discarded "public: void __cdecl tgui::Gui::add(class std::shared_ptr<class tgui::Widget> const &,class sf::String const &)" (?add@Gui@tgui@@QEAAXAEBV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z) from tgui.lib(tgui.dll)
+      Discarded "public: void __cdecl tgui::Gui::draw(void)" (?draw@Gui@tgui@@QEAAXXZ) from tgui.lib(tgui.dll)
+      Discarded "public: bool __cdecl tgui::Gui::handleEvent(class sf::Event)" (?handleEvent@Gui@tgui@@QEAA_NVEvent@sf@@@Z) from tgui.lib(tgui.dll)
+      Discarded "public: __cdecl tgui::Gui::Gui(class sf::RenderTarget &)" (??0Gui@tgui@@QEAA@AEAVRenderTarget@sf@@@Z) from tgui.lib(tgui.dll)
+      Discarded "public: class std::shared_ptr<class tgui::Widget> __cdecl tgui::Container::get(class sf::String const &)const " (?get@Container@tgui@@QEBA?AV?$shared_ptr@VWidget@tgui@@@std@@AEBVString@sf@@@Z) from tgui.lib(tgui.dll)
+      Discarded "public: __cdecl tgui::Gui::~Gui(void)" (??1Gui@tgui@@QEAA@XZ) from tgui.lib(tgui.dll)
+      Discarded _Mbrtowc from msvcprt.lib(MSVCP140.dll)
+      Discarded "private: static class std::locale::_Locimp * __cdecl std::locale::_Init(bool)" (?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z) from msvcprt.lib(MSVCP140.dll)
+      Discarded "void __cdecl std::_Xbad_alloc(void)" (?_Xbad_alloc@std@@YAXXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: unsigned short const * __cdecl std::_Locinfo::_W_Getmonths(void)const " (?_W_Getmonths@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: unsigned short const * __cdecl std::_Locinfo::_W_Getdays(void)const " (?_W_Getdays@_Locinfo@std@@QEBAPEBGXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: char const * __cdecl std::_Locinfo::_Getmonths(void)const " (?_Getmonths@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: char const * __cdecl std::_Locinfo::_Getdays(void)const " (?_Getdays@_Locinfo@std@@QEBAPEBDXZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "public: struct _Cvtvec __cdecl std::_Locinfo::_Getcvt(void)const " (?_Getcvt@_Locinfo@std@@QEBA?AU_Cvtvec@@XZ) from msvcprt.lib(MSVCP140.dll)
+      Discarded "void (__cdecl** __cdecl __crt_fast_decode_pointer<void (__cdecl**)(void)>(void (__cdecl** const)(void)))(void)" (??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z) from MSVCRT.lib(utility.obj)
+      Discarded "void (__cdecl** __cdecl __crt_fast_encode_pointer<void (__cdecl**)(void)>(void (__cdecl** const)(void)))(void)" (??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z) from MSVCRT.lib(utility.obj)
+      Discarded "unsigned __int64 __cdecl __crt_rotate_pointer_value(unsigned __int64,int)" (?__crt_rotate_pointer_value@@YA_K_KH@Z) from MSVCRT.lib(utility.obj)
+      Discarded "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ) from MSVCRT.lib(utility.obj)
+      Discarded "struct _IMAGE_SECTION_HEADER * __cdecl find_pe_section(unsigned char * const,unsigned __int64)" (?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z) from MSVCRT.lib(utility.obj)
+      Discarded "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ) from MSVCRT.lib(utility.obj)
+      Discarded "bool __cdecl is_potentially_valid_image_base(void * const)" (?is_potentially_valid_image_base@@YA_NQEAX@Z) from MSVCRT.lib(utility.obj)
+      Discarded NtCurrentTeb from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_after_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_before_initialize_c from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_crt_thread_attach from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_crt_thread_detach from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_exception_filter from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_uninitialize_c from MSVCRT.lib(utility.obj)
+      Discarded __scrt_dllmain_uninitialize_critical from MSVCRT.lib(utility.obj)
+      Discarded at_quick_exit from MSVCRT.lib(utility.obj)
+      Discarded "public: virtual __cdecl type_info::~type_info(void)" (??1type_info@@UEAA@XZ) from MSVCRT.lib(std_type_info_static.obj)
+      Discarded "int __cdecl __scrt_common_main(void)" (?__scrt_common_main@@YAHXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static void __cdecl __scrt_main_policy::set_app_type(void)" (?set_app_type@__scrt_main_policy@@SAXXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static void __cdecl __scrt_file_policy::set_commode(void)" (?set_commode@__scrt_file_policy@@SAXXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded "public: static void __cdecl __scrt_file_policy::set_fmode(void)" (?set_fmode@__scrt_file_policy@@SAXXZ) from MSVCRT.lib(exe_main.obj)
+      Discarded __report_rangecheckfailure from MSVCRT.lib(gs_report.obj)
+      Discarded __report_securityfailure from MSVCRT.lib(gs_report.obj)
+      Discarded __report_securityfailureEx from MSVCRT.lib(gs_report.obj)
+      Discarded capture_current_context from MSVCRT.lib(gs_report.obj)
+      Discarded __scrt_get_show_window_mode from MSVCRT.lib(utility_desktop.obj)
+      Discarded ReadNoFence64 from MSVCRT.lib(guard_support.obj)
+      Discarded ReadPointerNoFence from MSVCRT.lib(guard_support.obj)
+      Discarded _guard_icall_checks_enforced from MSVCRT.lib(guard_support.obj)
+      Discarded _guard_rf_checks_enforced from MSVCRT.lib(guard_support.obj)
+      Discarded __get_entropy from MSVCRT.lib(gs_support.obj)
+      Discarded "void __cdecl __scrt_uninitialize_type_info(void)" (?__scrt_uninitialize_type_info@@YAXXZ) from MSVCRT.lib(tncleanup.obj)
+      Discarded __std_type_info_destroy_list from vcruntime.lib(VCRUNTIME140.dll)
+      Discarded calloc from ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+      Discarded _seh_filter_dll from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded _execute_onexit_table from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded _crt_at_quick_exit from ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+      Discarded RtlCaptureContext from kernel32.lib(KERNEL32.dll)
+      Discarded RtlLookupFunctionEntry from kernel32.lib(KERNEL32.dll)
+      Discarded RtlVirtualUnwind from kernel32.lib(KERNEL32.dll)
+      Discarded UnhandledExceptionFilter from kernel32.lib(KERNEL32.dll)
+      Discarded SetUnhandledExceptionFilter from kernel32.lib(KERNEL32.dll)
+      Discarded GetCurrentProcess from kernel32.lib(KERNEL32.dll)
+      Discarded TerminateProcess from kernel32.lib(KERNEL32.dll)
+      Discarded IsDebuggerPresent from kernel32.lib(KERNEL32.dll)
+      Discarded GetStartupInfoW from kernel32.lib(KERNEL32.dll)
+      Discarded GetModuleHandleW from kernel32.lib(KERNEL32.dll)
+      Discarded QueryPerformanceCounter from kernel32.lib(KERNEL32.dll)
+      Discarded GetCurrentProcessId from kernel32.lib(KERNEL32.dll)
+      Discarded GetCurrentThreadId from kernel32.lib(KERNEL32.dll)
+      Discarded GetSystemTimeAsFileTime from kernel32.lib(KERNEL32.dll)
+      Discarded InitializeSListHead from kernel32.lib(KERNEL32.dll)
+      Discarded __scrt_stub_for_acrt_thread_attach from MSVCRT.lib(ucrt_stubs.obj)
+      Discarded __scrt_stub_for_acrt_thread_detach from MSVCRT.lib(ucrt_stubs.obj)
+      Discarded __scrt_stub_for_acrt_uninitialize_critical from MSVCRT.lib(ucrt_stubs.obj)
+      Discarded __scrt_stub_for_is_c_termination_complete from MSVCRT.lib(ucrt_stubs.obj)
+      Discarded __GSHandlerCheck from MSVCRT.lib(gshandler.obj)
+  
+      Selected symbol:
+          _guard_check_icall_nop from MSVCRT.lib(guard_support.obj)
+      Replaced symbol(s):
+          _initialize_invalid_parameter_handler from MSVCRT.lib(invalid_parameter_handler.obj)
+          _initialize_denormal_control from MSVCRT.lib(denormal_control.obj)
+  
+      Selected symbol:
+          _should_initialize_environment from MSVCRT.lib(env_mode.obj)
+      Replaced symbol(s):
+          __scrt_stub_for_acrt_initialize from MSVCRT.lib(ucrt_stubs.obj)
+          __scrt_stub_for_acrt_uninitialize from MSVCRT.lib(ucrt_stubs.obj)
+  
+      Selected symbol:
+          __scrt_initialize_winrt from MSVCRT.lib(utility_desktop.obj)
+      Replaced symbol(s):
+          __scrt_stub_for_initialize_mta from MSVCRT.lib(utility_desktop.obj)
+          _matherr from MSVCRT.lib(matherr.obj)
+          _get_startup_commit_mode from MSVCRT.lib(commit_mode.obj)
+          _get_startup_new_mode from MSVCRT.lib(new_mode.obj)
+          _get_startup_thread_locale_mode from MSVCRT.lib(thread_locale.obj)
+  
+      Selected symbol:
+          "public: __cdecl std::shared_ptr<class tgui::Button>::~shared_ptr<class tgui::Button>(void)" (??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ) from main.obj
+      Replaced symbol(s):
+          "public: __cdecl std::shared_ptr<class tgui::Widget>::~shared_ptr<class tgui::Widget>(void)" (??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ) from main.obj
+  
+      Selected symbol:
+          $unwind$??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $unwind$??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ from main.obj
+          $unwind$_onexit from MSVCRT.lib(utility.obj)
+          $unwind$__scrt_release_startup_lock from MSVCRT.lib(utility.obj)
+          $unwind$__scrt_initialize_crt from MSVCRT.lib(utility.obj)
+          $unwind$__scrt_uninitialize_crt from MSVCRT.lib(utility.obj)
+          $unwind$__scrt_initialize_onexit_tables from MSVCRT.lib(utility.obj)
+          $unwind$??_Gtype_info@@UEAAPEAXI@Z from MSVCRT.lib(std_type_info_static.obj)
+          $unwind$?pre_c_initialization@@YAHXZ from MSVCRT.lib(exe_main.obj)
+          $unwind$__raise_securityfailure from MSVCRT.lib(gs_report.obj)
+  
+      Selected symbol:
+          $unwind$??1locale@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $unwind$??__Ewindow@@YAXXZ from main.obj
+          $unwind$atexit from MSVCRT.lib(utility.obj)
+          $unwind$__scrt_acquire_startup_lock from MSVCRT.lib(utility.obj)
+          $unwind$?post_pgo_initialization@@YAHXZ from MSVCRT.lib(exe_main.obj)
+          $unwind$?pre_cpp_initialization@@YAXXZ from MSVCRT.lib(exe_main.obj)
+          $unwind$mainCRTStartup from MSVCRT.lib(exe_main.obj)
+          $unwind$__scrt_is_managed_app from MSVCRT.lib(utility_desktop.obj)
+          $unwind$__scrt_unhandled_exception_filter from MSVCRT.lib(utility_desktop.obj)
+          $unwind$__scrt_initialize_default_local_stdio_options from MSVCRT.lib(default_local_stdio_options.obj)
+  
+      Selected symbol:
+          $unwind$_RTC_Initialize from MSVCRT.lib(initsect.obj)
+      Replaced symbol(s):
+          $unwind$_RTC_Terminate from MSVCRT.lib(initsect.obj)
+  
+      Selected symbol:
+          $chain$1$??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $chain$1$??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ from main.obj
+  
+      Selected symbol:
+          $chain$0$??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $chain$0$??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ from main.obj
+  
+      Selected symbol:
+          $pdata$0$??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $pdata$0$??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ from main.obj
+  
+      Selected symbol:
+          $pdata$??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $pdata$??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ from main.obj
+  
+      Selected symbol:
+          $pdata$1$??1?$shared_ptr@VWidget@tgui@@@std@@QEAA@XZ from main.obj
+      Replaced symbol(s):
+          $pdata$1$??1?$shared_ptr@VButton@tgui@@@std@@QEAA@XZ from main.obj
+  
+      ICF total savings: 330 bytes
+  
+  Starting pass 2
+       * CIL library *(* CIL module *)
+       * linker generated manifest res *
+       sfml-system.lib(sfml-system-2.dll)
+       sfml-system.lib(sfml-system-2.dll)
+       sfml-system.lib(sfml-system-2.dll)
+       sfml-system.lib(sfml-system-2.dll)
+       sfml-system.lib(sfml-system-2.dll)
+       sfml-graphics.lib(sfml-graphics-2.dll)
+       sfml-graphics.lib(sfml-graphics-2.dll)
+       sfml-graphics.lib(sfml-graphics-2.dll)
+       sfml-graphics.lib(sfml-graphics-2.dll)
+       sfml-graphics.lib(sfml-graphics-2.dll)
+       sfml-graphics.lib(sfml-graphics-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       sfml-window.lib(sfml-window-2.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       tgui.lib(tgui.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       kernel32.lib(KERNEL32.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       msvcprt.lib(MSVCP140.dll)
+       MSVCRT.lib(amdsecgs.obj)
+       MSVCRT.lib(guard_dispatch.obj)
+       MSVCRT.lib(gs_cookie.obj)
+       MSVCRT.lib(gs_report.obj)
+       MSVCRT.lib(gs_support.obj)
+       MSVCRT.lib(guard_support.obj)
+       MSVCRT.lib(loadcfg.obj)
+       MSVCRT.lib(dyn_tls_dtor.obj)
+       MSVCRT.lib(dyn_tls_init.obj)
+       MSVCRT.lib(matherr_detection.obj)
+       MSVCRT.lib(ucrt_detection.obj)
+       MSVCRT.lib(cpu_disp.obj)
+       MSVCRT.lib(argv_mode.obj)
+       MSVCRT.lib(commit_mode.obj)
+       MSVCRT.lib(default_local_stdio_options.obj)
+       MSVCRT.lib(denormal_control.obj)
+       MSVCRT.lib(env_mode.obj)
+       MSVCRT.lib(file_mode.obj)
+       MSVCRT.lib(invalid_parameter_handler.obj)
+       MSVCRT.lib(matherr.obj)
+       MSVCRT.lib(new_mode.obj)
+       MSVCRT.lib(thread_locale.obj)
+       MSVCRT.lib(std_type_info_static.obj)
+       MSVCRT.lib(tncleanup.obj)
+       MSVCRT.lib(delete_scalar.obj)
+       MSVCRT.lib(delete_scalar_size.obj)
+       MSVCRT.lib(exe_main.obj)
+       MSVCRT.lib(initializers.obj)
+       MSVCRT.lib(utility.obj)
+       MSVCRT.lib(ucrt_stubs.obj)
+       MSVCRT.lib(utility_desktop.obj)
+       MSVCRT.lib(initsect.obj)
+       MSVCRT.lib(gshandler.obj)
+       MSVCRT.lib(gshandlereh.obj)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       vcruntime.lib(VCRUNTIME140.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-stdio-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-runtime-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-math-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-locale-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+       ucrt.lib(api-ms-win-crt-heap-l1-1-0.dll)
+  Finished pass 2
+  MMO-Client.vcxproj -> C:\Users\Andru\source\repos\OOP\x64\Release\MMO-Client.exe
